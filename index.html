@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles\login.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="input">
+            <div class="inputBox">
+                <div id="error" style="display: none; color: red;">*Invalid username/passwornd</div>
+                <label for="uname">username</label>
+                <input type="text" id="usr" name="uname" placeholder="abcd@gmail.com">
+            </div>
+            <div class="inputBox">
+                <label for="uname">password</label>
+                <input type="text" id="pwd" name="uname" placeholder="altleast 4 characters">
+            </div>
+            <div class="inputBox">
+                <button onclick="check()">Submit</button>
+            </div>
+    </div>
+</body>
+</html>
